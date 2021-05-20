@@ -2,7 +2,7 @@
 class Database
 {
     private $servername = 'jscholten@gc-webhosting.nl';
-    private $username = "dbuser";
+    private $username = "jscholten_dbuser";
     private $password = "prH1Ku#xjqf3";
     private $dbname = "jscholten_netland";
     private $charset = "utf8mb4";
