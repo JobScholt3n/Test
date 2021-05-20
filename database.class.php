@@ -1,10 +1,10 @@
 <?php
 class Database
 {
-    private $servername = 'localhost';
-    private $username = "root";
-    private $password = "";
-    private $dbname = "netland";
+    private $servername = 'jscholten@gc-webhosting.nl';
+    private $username = "jscholten_dbuser";
+    private $password = "prH1Ku#xjqf3";
+    private $dbname = "jscholten_netland";
     private $charset = "utf8mb4";
 
     public function connect()
