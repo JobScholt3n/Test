@@ -1,7 +1,7 @@
 <?php
 class Database
 {
-    private $servername = 'jscholten@gc-webhosting.nl';
+    private $servername = 'https://jscholten.gc-webhosting.nl/Test/login.php';
     private $username = "jscholten_dbuser";
     private $password = "prH1Ku#xjqf3";
     private $dbname = "jscholten_netland";
