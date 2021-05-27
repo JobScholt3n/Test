@@ -107,7 +107,7 @@ class Functions extends Database
         $row   = $sql->fetch(PDO::FETCH_ASSOC);
         if ($count == 1 && !empty($row)) {
             $_SESSION['loggedInUser'] = $row['id'];
-            header("Location: https://jscholten.gc-webhosting.nl/php_oop_example/");
+            header("Location: index.php");
             exit();
         } else {
             echo "Invalide gebruikersnaam/wachtwoord combinatie";
